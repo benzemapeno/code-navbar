@@ -1,0 +1,80 @@
+
+.content{
+    background-image: url(./img/Page\ Accueil.png);
+    height: 690px;
+    background-size: 1800px;
+    background-repeat: no-repeat;
+    border: 1px solid;
+    
+}
+p{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 40px;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.content h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 330px;
+}
+h1{
+    text-shadow: 2px 2px blue;
+    
+}
+
+.logo {
+    height: 100px;
+    
+    width: 200px;
+    display: flex;
+}
+
+header{
+
+    display: flex;
+    border: 2px lue solid;   
+    justify-content: space-between;
+ 
+}
+
+nav ul{
+
+    
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 30px;
+    
+}
+nav ul li {
+
+    
+    height: 30px;
+    list-style-type: none;
+   
+    
+}
+
+nav{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 70px;
+    
+
+    
+}
+
+   a{
+
+    text-decoration: none;
+    color: black;
+
+   }
